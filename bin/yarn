@@ -9,3 +9,9 @@ Dir.chdir(APP_ROOT) do
     exit 1
   end
 end
+
+# config/webpacker.yml
+development:
+  compile: true
+  dev_server:
+    compile: false
